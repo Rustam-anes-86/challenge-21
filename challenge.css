@@ -1,3 +1,12 @@
-div {
-    color:chartreuse;
+.cls1 {
+    color: goldenrod;
+}
+#prp1 {
+    color:brown
+}
+#prp2 {
+    color:olive
+}
+div p b, div i {
+    color:green
 }
