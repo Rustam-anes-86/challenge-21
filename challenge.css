@@ -1,12 +1,28 @@
-.cls1 {
-    color: goldenrod;
+.smt {
+    color: red;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
 }
-#prp1 {
-    color:brown
+
+.smt:hover{
+color: blueviolet;
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: underline;
+    cursor: pointer;
+
 }
-#prp2 {
-    color:olive
+
+.smt:active{
+    text-decoration: line-through;
+    color: green;
+    font-size: 30px;
+    text-align: center;
 }
-div p b, div i {
-    color:green
+
+.ttr:visited:visited{
+    color: grey;
 }
