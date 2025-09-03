@@ -26,3 +26,39 @@ color: blueviolet;
 .ttr:visited:visited{
     color: grey;
 }
+input {color:blue;}
+input:focus {
+    color: red;
+}
+
+p.tnt:not(:empty) 
+{
+color:blue;
+font-size: 30px;
+    text-align: center;
+}
+
+#wer::after {/*Псевдоэлемент*/
+content: "Всем привет!";
+color:chocolate;
+font-size: 20px;
+}
+#www::before {/*Псевдоэлемент*/
+content: "Всем привет!";
+color:chocolate;
+font-size: 20px;
+}
+
+p.tnt::first-letter {
+    color:gold;
+font-size: 30px;
+}
+
+p.ttt::first-line {
+    color:green;
+font-size: 30px;
+}
+
+div:last-of-type {
+    text-decoration:line-through;
+}
