@@ -1,10 +1,16 @@
-body {
+#t1 {
     background-color: yellowgreen;
     color:blueviolet;
     background-image: url("https://avatars.mds.yandex.net/i?id=bc4060406b0e33d2ca2766db2b67277d_l-10158105-images-thumbs&n=13");
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
     
+    height: 1000px;
+    text-align: center;
     background-size: cover;
+    background-attachment: fixed;
+}
+#t2 {
+
+    height: 800px;
 }
