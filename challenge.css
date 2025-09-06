@@ -1,16 +1,25 @@
-#t1 {
-    background-color: yellowgreen;
-    color:blueviolet;
-    background-image: url("https://avatars.mds.yandex.net/i?id=bc4060406b0e33d2ca2766db2b67277d_l-10158105-images-thumbs&n=13");
-    background-repeat: no-repeat;
-    background-position: center;
-    
-    height: 1000px;
-    text-align: center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-#t2 {
+body {
+    background-color: #d6c424;}
 
-    height: 800px;
+p p h1 {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.Tr{
+    color: blueviolet;
+    background-color:bisque ;
+    background-size: cover;
+    text-align: justify;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    cursor: pointer;
 }
