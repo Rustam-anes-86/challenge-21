@@ -1,25 +1,20 @@
-body {
-    background-color: #d6c424;}
-
-p p h1 {
-    color: black;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 700;
+#blk
+{
+    background: green;
+    height: 300px;
+    width: 400px;
+    border: 6px dotted blue;
+    border-bottom:0;
+    border-top-color: chartreuse;
+    border-top-style:solid;
+    border-width: 9px;
 }
-
-.Tr{
-    color: blueviolet;
-    background-color:bisque ;
-    background-size: cover;
-    text-align: justify;
-    font-size: 30px;
-    font-style: oblique;
-    font-weight: 900;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: capitalize;
-    word-spacing: 20px;
-    letter-spacing: 3px;
-    line-height: 50px;
-    cursor: pointer;
+#slk {
+  background:red;
+    height: 400px;
+    width: 400px;
+    border: 10px solid blue;
+    border-radius: 15px 45px;
+    border-style: double;
+ 
 }
