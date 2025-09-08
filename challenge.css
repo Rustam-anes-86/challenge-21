@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #blk
 {
     background: green;
@@ -8,6 +13,8 @@
     border-top-color: chartreuse;
     border-top-style:solid;
     border-width: 9px;
+    padding: 50px;
+    font-size: 20px;
 }
 #slk {
   background:red;
@@ -16,5 +23,8 @@
     border: 10px solid blue;
     border-radius: 15px 45px;
     border-style: double;
+    opacity: 0.3;
+    margin-left: 800px;
+    margin-top: 50px;
  
 }
