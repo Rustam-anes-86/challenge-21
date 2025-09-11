@@ -1,48 +1,97 @@
-#prv {
-width: 100%;
-height: 200px;
+body {
+   height: 5000px;
+}
+
+
+
+.container {
+   width: 600px;
+   height: 400px;
+   background: grey;
+}
+
+.T-em {
+font-size: 24px;/*абсолютные размеры шрифта в пикселях*/
 text-align: center;
-border-bottom: 5px solid black;
-background: gray ;
-color: aliceblue;
-line-height: 200px;
-font-size: 22px;
-margin-bottom: 30px;
-float: left;
+font-weight: bold;
+color:blueviolet;
 }
 
+.Tt-em {
+font-size:3em;/*Размер шрифта относительно родительского  элемента*/
+text-align: center;
+font-weight: bold;
+color:red;
 
-#vtr {
-width: 50%;
-margin-left: 0%;
-background: #69674e;
-border: 3px solid black;
-padding: 100px 3.5%;
-float: left;
+}
+.container-2 {
+  width: 600px;
+   height: 400px;
+   background: silver;
 }
 
-#trt {
-
-width: 20%;
-padding: 100px 2.5%;
-background: #69674e;
-border: 3px solid black;
-float: left;
-margin-left: 5%;
+.T-rem {
+font-size: 12px; /*абсолютные размеры шрифта в пикселях*/
+text-align: center;
+font-weight: bold;
+color:coral;
 }
 
-
-#cht {
-width: 100%;
+.Tt-rem {
+font-size:2rem;/*Размер шрифта относительно корневого элемента HTML*/
+text-align: center;
+font-weight: bold;
+color:darkcyan;
+}
+.father {
+width: 700px;/*абсолютный размер объекта в пикселях*/
 height: 300px;
-text-align: center;
-border-top: 5px solid black;
-border-bottom: 0;
-background: gray ;
-color: aliceblue;
-line-height: 200px;
-font-size: 22px;
-margin-bottom: 0;
-margin-top: 30px;
-float: left;
+background-color:red
+
+}
+
+.son {
+   width: 70%;/*относительный размер объекта в процентах*/
+   height: 70%;
+   background-color:blue
+   
+}
+
+#one {
+   background:#f2e71e;/*шестнадцатиричная модель цветового кода*/
+
+   width: 600px;
+   height: 600px;
+   color:#8e2459;/*шестнадцатиричная модель цветового кода*/
+ 
+   font-size: 80px;
+   font-weight: bold;
+   text-align: center;
+   line-height: 600px;
+}
+
+#two {
+   background: rgb(115, 113, 81);/*Цветовая модель rgb*/
+   width: 600px;
+   height: 600px;
+   color: rgb(97, 87, 179);/*Цветовая модель rgb*/
+   font-size: 100px;
+   font-weight: bold;
+   text-align: center;
+   line-height: 600px;
+}
+
+#three {
+   background:rgb(245, 62, 22);/*Цветовая модель rgb*/
+   width: 600px;
+   height: 600px;
+
+   color:rgb(47, 149, 52, 0.8) ;/*цветовая модель с rgb альфа каналом, который дает прозрачность цвету, 
+   0 полностью прозрачный, 1,0 полностью не прозрачный*/
+   font-size: 100px;
+   font-weight: bold;
+   text-align: center;
+   line-height: 600px;
+   
+
 }
