@@ -7,7 +7,7 @@ body {
    width: 150px;
    height: 100px;
   background-color: green;
-     margin:  10px;
+     margin:  0px;
      padding: 10px;
 
 }
@@ -17,3 +17,64 @@ body {
      margin: 10px ;
      padding: 10px;
 }
+
+.pogoda {
+display: inline;/*Тут изначально был блочный элемент -тег абзаца, с помощью свойства дисплей инлайн преобразовался в линейный элемент*/
+  background-color:#c37cc8;
+     margin:  100px;
+     padding: 5px;
+     font-size: 30px;
+     font-weight: 700;
+     text-decoration: wavy;
+     color: darkgreen;
+
+}
+
+.ezhik {
+display: block;/*Здесь была картинка с тегом img -линейный элемент, с помощью свойства дисплей блок,
+ преобразовали его в блочный элемент, который занимает всю ширину экрана */
+ background: blueviolet;
+     margin: 10px ;
+     padding: 10px;
+  width: 150px;
+height: 100px;
+}
+
+#container {
+ background-color: #b5d946;
+     margin:  0px;
+     padding: 50px;
+}
+
+.block1 {
+
+  background-color: lightblue;
+     margin: 10px ;
+     padding: 10px;
+
+}
+
+.block2 {
+display: block;./*Здесь была картинка с тегом img -линейный элемент, с помощью свойства дисплей блок,
+ преобразовали его в блочный элемент, который занимает всю ширину экрана */
+ background: #b8aada;
+     margin: 10px ;
+     padding: 10px;
+  width: 150px;
+height: 100px;
+}
+.block3 {
+display: block;/**/
+ background: #1ab8ac;
+     margin: 10px ;
+     padding: 10px;
+}
+
+
+
+
+
+
+
+
+
