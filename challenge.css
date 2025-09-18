@@ -5,51 +5,70 @@
 
 
 header {
-   width: 100wh;
+   width:100%;
    height: 100px;
-   background-color: blueviolet;
+   background-color:#748285;
    line-height: 100px;
-   
+   position: relative;
+   z-index: 1;
+}
+span {
+
+   color: orangered;
+   display: inline;
+   position: relative;
+   font-size: 46px;
+   font-weight: 700;
+    line-height: 100px;
+    float: right;
+    margin-right: 100px;
 }
 
+body {
+  width: 100%;
+}
 main {
-   background-color: blue;
-   height: 2000px;
-   width: 70%;
-   float: left;
-   background-size: cover;
+   background-color:#435c60;
+   height: 1500px;
+   width: 75%;
+   background-size: 100% 100%;
    background-repeat: no-repeat;
+   background-position: center;
+   float: left;
+   margin-left: 0;
 }
 
-
+img {
+   width: 100%;
+   margin-left: 0;
+}
 aside {
 
-   background-color: brown;
-   height: 2000px;
-   width: 30%;
-   float: left;
+   background-color: #394345;
+   height: 1500px;
+   width: 25%;
+    float: left;
+   
 
 }
-
-
 
 li {
    color: aliceblue;
    display: inline;
    padding: 20px;
-   font-size: 16px;
+   font-size: 26px;
+   font-weight: 700;
 }
 li:hover {
-   color: #292fb6;
+   color:#c92913;
+  
 }
 
-
-main {
-   background-repeat: no-repeat;
-}
 #asd {
-   width: 200px;
+   width: 400px;
    background-color: aqua;
    color: black;
-   font-size: 20px;
+   font-size: 30px;
+   font-weight: 800;
+   border-radius: 10px;
 }
