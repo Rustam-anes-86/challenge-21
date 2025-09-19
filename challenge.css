@@ -12,7 +12,7 @@ header {
    position: relative;
    z-index: 1;
 }
-span {
+.rrr {
 
    color: orangered;
    display: inline;
@@ -71,4 +71,52 @@ li:hover {
    font-size: 30px;
    font-weight: 800;
    border-radius: 10px;
+}
+
+.news {
+    color: aliceblue;
+   display: inline;
+   padding: 20px;
+   font-size: 46px;
+   font-weight: 700;
+}
+
+.news:hover {
+    color: green;
+}
+
+.news_content {
+
+   color: aliceblue;
+   display: inline;
+   padding: 20px;
+   font-size:20px;
+   font-weight: 700;
+   word-spacing: 20px;
+}
+footer {
+   display: block;
+   background-color:#435c60;
+   height: 1500px;
+   font-size: 20px;
+   margin-bottom: 300px;
+   margin-top: 100px;
+   color: chartreuse;
+   font-weight: 800;
+   border: 2px solid black;
+
+}
+
+.spn1 {
+padding-right: 200px;
+padding-left: 100px;
+float: left;
+}
+.spn2 {
+padding-right: 200px;
+float: left;
+}
+.spn3 {
+padding-left: 100px;
+float: left;
 }
