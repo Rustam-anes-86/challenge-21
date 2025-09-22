@@ -8,14 +8,16 @@
    height: 1500px;
    display: flex;
    justify-content: space-evenly;  
-   align-items: end;
+   flex-wrap: wrap;
+   align-items:flex-start;
+   align-content: flex-start;
    background-color: goldenrod;
    font-size: 46px;
    font-weight: 700;
 
 }
 
-.q1, .q2, .q3
+.q1, .q2, .q3, .q4, .q5, .q6
 
 {
    display: flex;
@@ -34,26 +36,67 @@
    color:red;
 }
 
+.q4:hover  {
+   color:blueviolet;
+}
+
+.q5:hover  {
+   color:blueviolet;
+}
+
+.q6:hover  {
+   color:blueviolet;
+}
+
 
 .q1 {
    
-   width: 400px;
+   width: 600px;
    height: 200px;
     border: 6px solid red;
      background-color: orange;
+     
 }
 
 .q2 {
 
-    width: 400px;
+    width: 600px;
+   height: 200px;
+    border: 6px solid red;
+   background-color: orange;
+  
+}
+
+.q3 {
+
+    width: 600px;
    height: 200px;
     border: 6px solid red;
    background-color: orange;
 }
 
-.q3 {
 
-    width: 400px;
+.q4 {
+
+    width: 600px;
+   height: 200px;
+    border: 6px solid red;
+   background-color: orange;
+}
+
+
+.q5 {
+
+    width: 600px;
+   height: 200px;
+    border: 6px solid red;
+   background-color: orange;
+}
+
+
+.q6 {
+
+    width: 600px;
    height: 200px;
     border: 6px solid red;
    background-color: orange;
