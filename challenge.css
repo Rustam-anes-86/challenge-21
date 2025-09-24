@@ -7,11 +7,11 @@
    width: 100%;
    height: 1500px;
    display: flex;
-   justify-content: center;  
-   align-content: flex-start;
-   align-items:flex-start;
-   flex-wrap: wrap;
-   flex-direction: row-reverse;
+   justify-content: flex-end;  
+   align-content: ;
+   align-items: end;
+   flex-wrap: nowrap;
+   flex-direction: row;
   
    background-color: goldenrod;
    font-size: 46px;
@@ -52,26 +52,26 @@
 
 
 .q1 {
-   order: 6;
+   order: 0;
    width: 1000px;
    height: 300px;
    border: 6px solid red;
    background-color: orange;
-     
+   align-self: center;
 }
 
 .q2 {
-    order: 5;
+    order: 0;
       flex-grow: 1;
       width: 1000px;
       height: 300px;
       border: 6px solid red;
       background-color: orange;
-  
+      align-self: flex-start;
 }
 
 .q3 {
-    order: 4;
+    order: 0;
 
    width: 1000px;
    height: 300px;
@@ -81,9 +81,9 @@
 
 
 .q4 {
-    order: 3;
+    order: 0;
     flex-grow: 1;
-
+    align-self: center;
      width: 1000px;
    height: 300px;
     border: 6px solid red;
@@ -92,7 +92,7 @@
 
 
 .q5 {
-    order: 2;
+    order: 0;
 
        width: 1000px;
    height: 300px;
@@ -102,9 +102,10 @@
 
 
 .q6 {
-    flex-grow: 1;
+    flex-grow: 0;
    width: 1000px;
    height: 300px;
     border: 6px solid red;
    background-color: orange;
+   align-self: flex-start;
 }
