@@ -1,111 +1,154 @@
-* {
-   margin: 0;
-   padding: 0;
+
+body {
+   padding: 30px;
 }
 
-.cont {
-   width: 100%;
-   height: 1500px;
-   display: flex;
-   justify-content: flex-end;  
-   align-content: ;
-   align-items: end;
-   flex-wrap: nowrap;
-   flex-direction: row;
+.parent_1 {
+border: solid 3px red;
+height: 500px;
+background-color:gainsboro;
+position:static;
+width: 1300px;
+margin-left: 50%;
+transform: translateX(-50%);
+
+}
+
+.block_1 {
+
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+   background-color: brown;
+   position: static;/*position:static изначально стоит по умолчанию и его прописывать отдельно не нужно, распологается с нормальным потоком документа*/
+ 
   
-   background-color: goldenrod;
-   font-size: 46px;
-   font-weight: 700;
-
 }
 
-.q1, .q2, .q3, .q4, .q5, .q6
-
-{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   color: green;
+.block_2 {
+   
+   height: 100px;
+   line-height: 100px;
+   color: beige;
+   text-align: center;
+   background-color:rgb(92, 62, 161);
+   position: static;
+ 
+  
 }
-
-.q1:hover  {
-   color:blueviolet;
-}
-.q2:hover  {
-   color:blue;
-}
-.q3:hover  {
-   color:red;
-}
-
-.q4:hover  {
-   color:blueviolet;
-}
-
-.q5:hover  {
-   color:blueviolet;
-}
-
-.q6:hover  {
-   color:blueviolet;
+.block_3 {
+ 
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+   background-color:rgb(65, 172, 106);
+   position: static;
+  
 }
 
 
-.q1 {
-   order: 0;
-   width: 1000px;
-   height: 300px;
-   border: 6px solid red;
-   background-color: orange;
-   align-self: center;
+
+
+
+.parent_2 {
+   margin-top: 500px;
+   border: solid 3px green;
+   height: 500px;
+   background-color:rgb(192, 196, 149);
+   position:static;
+   width: 1300px;
+   margin-left: 50%;
+   transform: translateX(-50%);
+
 }
 
-.q2 {
-    order: 0;
-      flex-grow: 1;
-      width: 1000px;
-      height: 300px;
-      border: 6px solid red;
-      background-color: orange;
-      align-self: flex-start;
+.block_10 {
+
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+   background-color: rgb(167, 72, 196);
+   position: static;
+ 
+  
 }
 
-.q3 {
-    order: 0;
-
-   width: 1000px;
-   height: 300px;
-    border: 6px solid red;
-   background-color: orange;
+.block_20 {
+   
+   height: 100px;
+   line-height: 100px;
+   color: beige;
+   text-align: center;
+   background-color:rgb(51, 29, 102);
+   position: relative;/*Элементы располагаются в обычном потоке , 
+   но используя свойства топ, лефт, райт и боттом , можно смещать элемент относительно других элементов, при этом остальные элементы никуда 
+   не сдвигаются, при позишн статик свойства райт, лефт боттом и топ не работают*/
+   top: 10px;
+   left: 20px;
+ 
+  
 }
-
-
-.q4 {
-    order: 0;
-    flex-grow: 1;
-    align-self: center;
-     width: 1000px;
-   height: 300px;
-    border: 6px solid red;
-   background-color: orange;
-}
-
-
-.q5 {
-    order: 0;
-
-       width: 1000px;
-   height: 300px;
-    border: 6px solid red;
-   background-color: orange;
+.block_30 {
+ 
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+   background-color:rgb(77, 173, 136);
+   position: static;
+  
 }
 
 
-.q6 {
-    flex-grow: 0;
-   width: 1000px;
-   height: 300px;
-    border: 6px solid red;
-   background-color: orange;
-   align-self: flex-start;
+
+.parent_3 {
+   margin-top: 500px;
+   border: solid 3px green;
+   height: 500px;
+   background-color:rgb(192, 196, 149);
+   width: 1300px;
+     margin-left: 50%;
+   transform: translateX(-50%);
+ 
+ 
+
+}
+
+.block_100 {
+
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+   background-color: rgb(167, 72, 196);
+   position: absolute;/*Элемент c позицией абсолют выпадает из обычного  потока, то есть его место занимают блочные элементы
+   которые находились ниже и ему также можно задавать свойства лефт, райт, топ и боттом*/
+
+   right: 100px;
+   bottom: 200px;
+   width: 100%;
+ 
+  
+}
+
+.block_200 {
+   
+   height: 100px;
+   line-height: 100px;
+   color: beige;
+   text-align: center;
+   background-color:rgb(51, 29, 102);
+   position: relative;/*Элемент смещается относительно своего прежнего места с помощью свойств райт, лефт ,
+    топ и боттом, на его место другие элементы не переходят*/
+   top: 30px;
+   right: 20px;
+ 
+  
+}
+.block_300 {
+ 
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+   background-color:rgb(77, 173, 136);
+   position: static;
+  
 }
