@@ -1,6 +1,8 @@
 
 body {
    padding: 30px;
+   position: relative;
+   height: 4000px;
 }
 
 .parent_1 {
@@ -151,4 +153,37 @@ transform: translateX(-50%);
    background-color:rgb(77, 173, 136);
    position: static;
   
+}
+
+.parent_4 {
+   width: 500px;
+   line-height: 500px;
+   text-align: center;
+  background-color: blueviolet;
+   position: fixed;
+   margin-top: 500px;
+   top: 0;
+   right: 0;
+
+}
+
+h2 {
+   width: 100%;
+   line-height: 200px;
+   text-align: center;
+  background-color: blue;
+  color: bisque;
+   top: 0;
+   position:sticky;
+   border: solid 3px red;
+}
+
+p {
+    width: 100%;
+   line-height: 100px;
+   text-align: center;
+  background-color: rgb(109, 63, 85);
+  color: bisque;
+   top: 0; 
+   border: solid 3px red;
 }
