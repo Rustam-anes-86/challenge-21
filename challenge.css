@@ -1,8 +1,8 @@
 
 body {
-   padding: 30px;
+   padding: 10px;
    position: relative;
-   height: 4000px;
+   height: 6000px;
 }
 
 .parent_1 {
@@ -11,9 +11,16 @@ height: 500px;
 background-color:gainsboro;
 position:static;
 width: 1300px;
-margin-left: 50%;
-transform: translateX(-50%);
+margin: 0 auto;
 
+}
+
+
+#st {
+   text-align: center;
+   font-size: 16px;
+   color: black;
+   font-weight: 600;
 }
 
 .block_1 {
@@ -54,6 +61,7 @@ transform: translateX(-50%);
 
 .parent_2 {
    margin-top: 500px;
+   margin-bottom: 300px;
    border: solid 3px green;
    height: 500px;
    background-color:rgb(192, 196, 149);
@@ -63,6 +71,15 @@ transform: translateX(-50%);
    transform: translateX(-50%);
 
 }
+
+#st2 {
+   text-align: center;
+   font-size: 16px;
+   color: black;
+   font-weight: 600;
+}
+
+
 
 .block_10 {
 
@@ -104,50 +121,49 @@ transform: translateX(-50%);
 
 .parent_3 {
    margin-top: 500px;
-   border: solid 3px green;
+   margin-bottom: 500px;
+   border: solid 3px rgb(155, 21, 32);
    height: 500px;
    background-color:rgb(192, 196, 149);
-   width: 1300px;
-     margin-left: 50%;
-   transform: translateX(-50%);
- 
- 
+   width: 100%;
+   height: 1000px;
+   position:relative;
 
 }
 
-.block_100 {
+#st3 {
+   text-align: center;
+   font-size: 16px;
+   color: black;
+   font-weight: 600;
+}
 
-   height: 100px;
+.block_100 {
+   width: 100%;
    line-height: 100px;
    text-align: center;
    background-color: rgb(167, 72, 196);
    position: absolute;/*Элемент c позицией абсолют выпадает из обычного  потока, то есть его место занимают блочные элементы
-   которые находились ниже и ему также можно задавать свойства лефт, райт, топ и боттом*/
-
+   которые находились ниже и ему также можно задавать свойства лефт, райт, топ и боттом относительно его ближайшего родителя*/
    right: 100px;
    bottom: 200px;
-   width: 100%;
+   
  
   
 }
 
 .block_200 {
-   
-   height: 100px;
+   width: 100%;
    line-height: 100px;
-   color: beige;
+   color: white;
    text-align: center;
    background-color:rgb(51, 29, 102);
-   position: relative;/*Элемент смещается относительно своего прежнего места с помощью свойств райт, лефт ,
-    топ и боттом, на его место другие элементы не переходят*/
-   top: 30px;
-   right: 20px;
- 
+
   
 }
 .block_300 {
- 
-   height: 100px;
+   width: 100%;
+   color: black;
    line-height: 100px;
    text-align: center;
    background-color:rgb(77, 173, 136);
@@ -156,34 +172,62 @@ transform: translateX(-50%);
 }
 
 .parent_4 {
-   width: 500px;
-   line-height: 500px;
+   color: aliceblue;
+   width: 100px;
+   line-height: 200px;
    text-align: center;
   background-color: blueviolet;
-   position: fixed;
-   margin-top: 500px;
-   top: 0;
+   position: fixed;/*Элемент c позицией fixed выпадает из обычного  потока, и как бы фиксируется к экрану при прокрутке,
+   его положение также можно задавать с помощью свойств : топ, боттом, райт и лефт*/
+ 
+   bottom: 0px;
    right: 0;
 
 }
 
-h2 {
+.parent_5 {
+   margin-top: 300px;
    width: 100%;
-   line-height: 200px;
-   text-align: center;
-  background-color: blue;
-  color: bisque;
-   top: 0;
-   position:sticky;
-   border: solid 3px red;
+   height: 2000px;
+   position: relative; 
+   background-color: rgb(199, 189, 189);
+   border: solid 6px red;
+
 }
 
+.Heading_1 {
+      width: 80%;
+      line-height: 200px;
+      text-align: center;
+      background-color: blue;
+      color: bisque;
+      top: 0px;;
+      position:sticky;/*Элемент ведет себя при прокрутке как элемент со свойством static, 
+      затем достигая top своего родителя как бы прилипает к экрану, тем самым ведет себя уже как позишн фиксед*/
+      border: solid 3px red;
+      margin-top: 400px;
+
+}
+
+.Heading_2 {
+      width: 80%;
+      line-height: 200px;
+      text-align: center;
+      background-color: blue;
+      color: bisque;
+      top: 0px;;
+      position:sticky;
+      border: solid 3px red;
+      margin-top: 300px;
+}
+
+
+
 p {
-    width: 100%;
+   width: 80%;
    line-height: 100px;
    text-align: center;
   background-color: rgb(109, 63, 85);
   color: bisque;
-   top: 0; 
    border: solid 3px red;
 }
