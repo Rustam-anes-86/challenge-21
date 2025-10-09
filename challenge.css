@@ -49,3 +49,63 @@ li a {
    color: #118DA8;
 
 }
+
+.hero {
+   display: flex;
+   justify-content: space-between;
+   padding: 50px;
+}
+
+.main_image {
+   width: 650;
+   height: 873;
+   opacity: 1;
+
+}
+
+.content {
+   max-width: 500px;
+
+}
+.content h2 {
+   font-family: DM Sans;
+   font-weight: 400;
+   margin-top: 300px;
+   font-style: Regular;
+   font-size: 70px;
+   line-height: 88px;
+   letter-spacing: 3.2px;
+   margin-bottom: 80px;
+
+}
+
+.content h2 span {
+   font-family: DM Sans;
+font-weight: 400;
+font-style: normal;
+font-size: 75px;
+line-height: 88px;
+letter-spacing: 3.2px;
+
+}
+.content p {
+    font-family: DM Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0%;
+
+}
+ 
+
+.platforms {
+   margin-top: 20px; 
+
+}
+
+.icons {
+   width: 32px;
+   height: 32px;
+   margin-right: 15px;
+}
