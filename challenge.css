@@ -10,9 +10,6 @@ body {
    color: white;
    background-color: #191919;
    width: 1440px;
-
-
-
 }
 
 header {
@@ -120,15 +117,15 @@ li a {
 
 
 
-.main_container {
+.main_container_2 {
    width: 1440px;
    height: 2088px;
    opacity: 1;
-   border: 1px solid white;
+
    position: relative;
 }
 
-.content_container {
+.content_container_2 {
    width: 1400px;
    height: 2088px;
    opacity: 1;
@@ -142,7 +139,7 @@ li a {
    opacity: 1;
    margin-top: 100.44px;
    margin-left: 50px;
-   border: 1px solid white;
+   
    display: flex;
 
 
@@ -154,7 +151,7 @@ li a {
    height: 80px;
    opacity: 1;
    margin-top: -7.44px;
-   border: 1px solid white;
+
 
    font-family: DM Sans;
    font-weight: 400;
@@ -171,7 +168,7 @@ li a {
    opacity: 1;
    margin-top: 23.56px;
    margin-left: 1122px;
-   border: 1px solid white;
+ 
    position: absolute;
    background: #118DA8;
    border-radius: 6px;
@@ -198,7 +195,7 @@ li a {
    height: 1689px;
    margin-top: 40px;
    margin-left: 50px;
-   border: 1px solid white;
+
    position: absolute;
    display: flex;
    flex-direction: column;
@@ -211,7 +208,7 @@ li a {
    height: 545px;
    opacity: 1;
    margin-top: -0.44px;
-   border: 1px solid white;
+
    background: #000000;
    ;
 
@@ -245,7 +242,7 @@ li a {
    height: 465px;
    opacity: 1;
    margin-left: 53px;
-   border: 1px solid white;
+ 
 
 
 }
@@ -279,7 +276,7 @@ li a {
    height: 27px;
    margin-top: 43px;
    opacity: 1;
-   border: 1px solid white;
+
    display: flex;
    flex-direction: row;
    align-content: center;
@@ -334,7 +331,7 @@ li a {
    font-size: 64px;
    line-height: 70.4px;
    letter-spacing: 2.56px;
-   border: 1px solid white;
+  
 }
 
 .block_right_description_text {
@@ -358,9 +355,10 @@ li a {
    height: 51px;
    margin-top: 18px;
    opacity: 1;
-   border: 1px solid white;
    background: #118DA8;
    border-radius: 6px;
+   display: flex;
+   align-content: center;
 }
 
 .VED_button_text {
@@ -383,8 +381,9 @@ li a {
    opacity: 1;
    margin-top: 59.56px;
 
+
    background: rgb(9, 107, 139);
-   border: 1px solid white;
+
    background: #000000;
 }
 
@@ -395,7 +394,7 @@ li a {
    opacity: 1;
    margin-top: 40.44px;
    margin-left: 40px;
-   border: 1px solid white;
+
    display: flex;
 }
 
@@ -411,7 +410,7 @@ li a {
    height: 432px;
    opacity: 1;
    margin-left: 53px;
-   border: 1px solid white;
+
 
 }
 
@@ -443,7 +442,7 @@ li a {
 
 }
 
-.main_container_episode_3 {
+.main_container_episode_2 {
    width: 81px;
    height: 27px;
    opacity: 1;
@@ -453,7 +452,7 @@ li a {
 
 }
 
-.text_container_episode_3 {
+.text_container_episode_2 {
    width: 62px;
    height: 27px;
    angle: 0 deg;
@@ -472,7 +471,7 @@ li a {
 
 }
 
-.text_container_episode_3_number {
+.text_container_episode_2_number {
    width: 10px;
    height: 27px;
    opacity: 1;
@@ -495,7 +494,7 @@ li a {
    height: 141px;
    opacity: 1;
    margin-top: 17.56px;
-   border: 1px solid white;
+ 
 
    font-family: DM Sans;
    font-weight: 400;
@@ -540,9 +539,72 @@ li a {
    margin-top: 12px;
    margin-left: 20px;
 
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0%;
+}
+
+/*Третья карточка*/
+
+.three_cards_section_3 {
+   width: 1300px;
+   height: 512px;
+   opacity: 1;
+   margin-top: 59.56px;
+ 
+   background: #000000;
+}
 
 
+.three_cards_section_3_a {
+   width: 1220px;
+   height: 432px;
+   opacity: 1;
+   margin-top: 40.44px;
+   margin-left: 40px;
 
+   display: flex;
+}
+
+.three_cards_section_3_a_image {
+   width: 389px;
+   height: 432px;
+   opacity: 1;
+   margin: -0.44px;
+
+}
+
+.three_cards_section_3_a_block_right {
+   width: 778px;
+   height: 432px;
+   opacity: 1;
+   margin-left: 53px;
+
+
+}
+
+
+.main_container_gear_2 {
+   width: 73px;
+   height: 27px;
+   opacity: 1;
+   margin-top: 7.56px;
+
+   background: #191919;
+   border-radius: 6px;
+
+
+}
+
+
+.text_container_gear_2 {
+   width: 41px;
+   height: 27px;
+   opacity: 1;
+   margin-left: 16px;
    font-family: DM Sans;
    font-weight: 400;
    font-style: Regular;
@@ -550,16 +612,241 @@ li a {
    line-height: 27px;
    letter-spacing: 0%;
 
+}
+
+.main_container_episode_1 {
+   width: 76px;
+   height: 27px;
+   opacity: 1;
+   margin-top: 48.44px;
+   display: flex;
 
 }
 
-
-.content_3_3 {
-   width: 1300px;
-   height: 512px;
+.text_container_episode_1 {
+   width: 62px;
+   height: 27px;
    opacity: 1;
-   margin-top: 60px;
+   margin-top: -0.44px;
+   color: #118DA8;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 17px;
+   line-height: 27px;
+   letter-spacing: 0%;
+}
 
+.text_container_episode_1_number {
+   width: 10px;
+   height: 27px;
+   opacity: 1;
+   margin-top: -0.44px;
+   margin-left: 3px;
+   color: #118DA8;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 18px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+
+}
+
+.block_right_3_title_text {
+   width: 611px;
+   height: 141px;
+   opacity: 1;
+   margin-top: 17.56px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-size: 57px;
+   line-height: 70.4px;
+   letter-spacing: 2.56px;
+}
+
+.block_right_3_description_text {
+   width: 767px;
+   height: 66px;
+   opacity: 1;
+   margin-top: 28px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 22px;
+   line-height: 33px;
+   letter-spacing: 0%;
+   color: #FFFFFFB2;
+}
+
+.VED_button_3 {
+   width: 208px;
+   height: 51px;
+   opacity: 1;
+   margin-top: 18px;
    background: #118DA8;
-   border: 1px solid white
+   border-radius: 6px;
+   display: flex;
+   align-content: center;
+}
+
+.VED_button_3_text {
+   width: 173px;
+   height: 27px;
+   opacity: 1;
+   margin-top: 12px;
+   margin-left: 20px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0%;
+}
+
+.main_container_3 {
+   width: 1440px;
+   height: 943px;
+   opacity: 1;
+   margin-top: 0px;
+
+   background: #191919;
+}
+
+.content_container_3 {
+   width: 1400px;
+   height: 943px;
+   opacity: 1;
+   margin-left: 20px;
+
+}
+
+.content_container_3_little {
+   width: 1300px;
+   height: 743.4375px;
+   opacity: 1;
+   margin-top: 100.44px;
+   margin-left: 50px;
+
+   display: flex;
+   justify-content: space-between;
+   align-content: center;
+
+}
+
+.main_left_container {
+   width: 590px;
+   height: 448px;
+   opacity: 1;
+   top: 147.72px;
+
+   position: relative;
+}
+
+.right_image {
+   width: 650px;
+   height: 742px;
+   opacity: 1;
+
+}
+
+.blue_circle_button {
+   width: 112px;
+   height: 112px;
+   opacity: 1;
+   margin-top: -0.16px;
+   border-radius: 50%;
+   background: #118DA8;
+   border: 1px solid #118DA8;
+   ;
+
+}
+
+.blue_circle_button_1 {
+   width: 108px;
+   height: 64px;
+   opacity: 1;
+   margin-top: 37px;
+   margin-left: 4px;
+
+
+
+}
+
+.blue_circle_button_1_a {
+   width: 71px;
+   height: 38px;
+   opacity: 1;
+   margin-top: 13px;
+   margin-left: 13px;
+   border: 1px solid #118DA8;
+   ;
+   transform: rotate(0deg);
+}
+
+.Meet_your_host {
+   width: 126px;
+   height: 27px;
+   opacity: 1;
+   margin-top: 20px;
+
+   color: #118DA8;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0%;
+}
+
+.Jacob_Paulaner {
+   width: 496px;
+   height: 80px;
+   opacity: 1;
+   margin-top: -1px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 65px;
+   line-height: 79.2px;
+   letter-spacing: 2.88px;
+}
+
+.block_left__description_text_one {
+   width: 556px;
+   height: 66px;
+   opacity: 1;
+   margin-top: 28px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 22px;
+   line-height: 33px;
+   letter-spacing: 0%;
+   color: #FFFFFFB2;
+
+}
+
+.block_left__description_text_two {
+   width: 528px;
+   height: 66px;
+   opacity: 1;
+   margin-top:33px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 22px;
+   line-height: 33px;
+   letter-spacing: 0%;
+   color: #FFFFFFB2;
+
+
 }
