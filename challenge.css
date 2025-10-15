@@ -139,7 +139,7 @@ li a {
    opacity: 1;
    margin-top: 100.44px;
    margin-left: 50px;
-   
+
    display: flex;
 
 
@@ -168,7 +168,7 @@ li a {
    opacity: 1;
    margin-top: 23.56px;
    margin-left: 1122px;
- 
+
    position: absolute;
    background: #118DA8;
    border-radius: 6px;
@@ -242,7 +242,7 @@ li a {
    height: 465px;
    opacity: 1;
    margin-left: 53px;
- 
+
 
 
 }
@@ -331,7 +331,7 @@ li a {
    font-size: 64px;
    line-height: 70.4px;
    letter-spacing: 2.56px;
-  
+
 }
 
 .block_right_description_text {
@@ -494,7 +494,7 @@ li a {
    height: 141px;
    opacity: 1;
    margin-top: 17.56px;
- 
+
 
    font-family: DM Sans;
    font-weight: 400;
@@ -554,7 +554,7 @@ li a {
    height: 512px;
    opacity: 1;
    margin-top: 59.56px;
- 
+
    background: #000000;
 }
 
@@ -838,7 +838,7 @@ li a {
    width: 528px;
    height: 66px;
    opacity: 1;
-   margin-top:33px;
+   margin-top: 33px;
 
    font-family: DM Sans;
    font-weight: 400;
@@ -847,6 +847,93 @@ li a {
    line-height: 33px;
    letter-spacing: 0%;
    color: #FFFFFFB2;
+}
+
+.main_container_4 {
+   width: 1440px;
+   height: 587px;
+   opacity: 1;
+   border: 1px solid white;
+}
+
+.content_container_4 {
+   width: 1400px;
+   height: 587px;
+   opacity: 1;
+   margin-left: 20px;
+   border: 1px solid white;
+
+}
+
+
+
+.content_container_4_little {
+   width: 1300px;
+   height: 387px;
+   opacity: 1;
+   margin-top: 100px;
+   margin-left: 50px;
+   border-radius: 32px;
+   background: #000000;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+.main_left_container_4 {
+   width: 642px;
+   height: 330px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: -0.13px;
+   position: relative;
+   border: 1px solid white;
+
+}
+
+.ray_2 {
+   width: 147px;
+   height: 91px;
+   opacity: 1;
+   margin-top: 322px;
+   margin-left: -38px;
+   position: absolute;
+   border: 1px solid white;
+
+}
+
+.Email_Newsletter {
+   width: 139px;
+   height: 27px;
+   opacity: 1;
+   margin-top: 59.13px;
+   margin-left: 60px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 18px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+   color: #118DA8;
+}
+
+.subscribe {
+   width: 431px;
+   height: 159px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 85.13px;
+   margin-left: 60px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 72px;
+   leading-trim: NONE;
+   line-height: 79.2px;
+   letter-spacing: 2.88px;
 
 
 }
