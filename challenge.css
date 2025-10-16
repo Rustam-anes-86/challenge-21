@@ -3,13 +3,13 @@
    padding: 0;
    box-sizing: border-box;
 
-
 }
 
 body {
    color: white;
    background-color: #191919;
    width: 1440px;
+
 }
 
 header {
@@ -853,7 +853,7 @@ li a {
    width: 1440px;
    height: 587px;
    opacity: 1;
-   border: 1px solid white;
+
 }
 
 .content_container_4 {
@@ -861,7 +861,7 @@ li a {
    height: 587px;
    opacity: 1;
    margin-left: 20px;
-   border: 1px solid white;
+
 
 }
 
@@ -887,7 +887,7 @@ li a {
    opacity: 1;
    margin-top: -0.13px;
    position: relative;
-   border: 1px solid white;
+
 
 }
 
@@ -898,7 +898,39 @@ li a {
    margin-top: 322px;
    margin-left: -38px;
    position: absolute;
-   border: 1px solid white;
+
+}
+
+.vector_1b {
+   width: 13.308258056640625px;
+   height: 55.40024948120117px;
+   opacity: 1;
+   margin-top: 32.99px;
+   margin-left: 133.56px;
+   color: #118DA8;
+
+
+}
+
+
+.vector_2b {
+   width: 28.866px;
+   height: 60.35px;
+   opacity: 1;
+   margin-top: -58.67px;
+   margin-left: 33.15px;
+   color: #118DA8;
+
+}
+
+.vector_3b {
+   width: 22.164661407470703px;
+   height: 12.839414596557617px;
+   angle: 0 deg;
+   opacity: 1;
+   color: #118DA8;
+   margin-top: -92px;
+   margin-left: 0px;
 
 }
 
@@ -934,6 +966,96 @@ li a {
    leading-trim: NONE;
    line-height: 79.2px;
    letter-spacing: 2.88px;
+}
+
+.main_right_container_4 {
+   width: 522px;
+   height: 252px;
+   opacity: 1;
+   margin-top: 59.88px;
+   margin-left: 76px;
 
 
+}
+
+.name {
+   width: 522px;
+   height: 82px;
+   opacity: 1;
+   margin-top: 0.13px;
+   border-radius: 6px;
+   border-width: 1px;
+   background: #191919;
+   border: 1px solid #191919
+}
+
+.name_a {
+   width: 65px;
+   height: 29px;
+   opacity: 1;
+   margin-top: 26.13px;
+   margin-left: 19px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 24px;
+   line-height: 28.8px;
+   letter-spacing: 0%;
+   color: #FFFFFFB2;
+}
+
+.email {
+   width: 522px;
+   height: 82px;
+   opacity: 1;
+   margin-top: 20px;
+   border-radius: 6px;
+   border-width: 1px;
+   border: 1px solid #191919;
+   background: #191919;
+}
+
+.email_a {
+   width: 60px;
+   height: 29px;
+   opacity: 1;
+   margin-top: 26px;
+   margin-left: 19px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 24px;
+   line-height: 28.8px;
+   letter-spacing: 0%;
+   color: #FFFFFFB2;
+
+}
+
+.submit {
+   width: 87px;
+   height: 48px;
+   opacity: 1;
+   margin-top: 20px;
+   border-radius: 6px;
+   background: #118DA8;
+   display: flex;
+   align-content: center;
+
+}
+
+.submit_a {
+   width: 53px;
+   height: 29px;
+   opacity: 1;
+   margin-top: 9px;
+   margin-left: 19px;
+   font-family: DM Sans;
+   font-weight: 700;
+   font-style: Bold;
+   font-size: 15px;
+   line-height: 28.8px;
+   letter-spacing: 0%;
+   color: #FFFFFFB2;
+   display: flex;
+   align-items: center;
 }
