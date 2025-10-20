@@ -1064,7 +1064,7 @@ li a {
 .main_container_5 {
    width: 1440px;
    height: 901px;
- 
+
    opacity: 1;
 
 }
@@ -1072,7 +1072,7 @@ li a {
 .content_container_5 {
    width: 1400px;
    height: 901px;
-   
+
    opacity: 1;
    margin-left: 20px;
 
@@ -1081,14 +1081,14 @@ li a {
 .content_container_5_little {
    width: 1300px;
    height: 701px;
-   border: 1px solid wheat;
+
    opacity: 1;
    margin-top: 99.88px;
    margin-left: 50px;
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   
+
 
 }
 
@@ -1271,5 +1271,207 @@ li a {
    font-size: 24px;
    line-height: 28.8px;
    letter-spacing: 0%;
+
+}
+
+
+.card_three {
+   width: 423px;
+   height: 321px;
+   opacity: 1;
+   margin-top: 0.12px;
+   margin-left: px;
+   border-radius: 32px;
+   display: flex;
+   position: relative;
+   background: #000000;
+
+}
+
+
+.card_three_description {
+   width: 288px;
+   height: 87px;
+   position: absolute;
+   opacity: 1;
+   margin-top: 92px;
+   margin-left: 50px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 36px;
+   leading-trim: NONE;
+   line-height: 43.2px;
+   letter-spacing: 0%;
+
+}
+
+.card_three_author {
+   width: 157px;
+   height: 29px;
+   opacity: 1;
+   margin-top: 198px;
+   margin-left: 50px;
+   color: #FFFFFFB2;
+   position: absolute;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 24px;
+   line-height: 28.8px;
+   letter-spacing: 0%;
+
+}
+
+.card_four {
+   width: 423px;
+   height: 364px;
+   opacity: 1;
+   margin-top: 16px;
+   margin-left: px;
+   border-radius: 32px;
+   display: flex;
+   position: relative;
+   background: #000000;
+}
+
+
+.card_four_description {
+   width: 288px;
+   height: 87px;
+   position: absolute;
+   opacity: 1;
+   margin-top: 92px;
+   margin-left: 50px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 36px;
+   leading-trim: NONE;
+   line-height: 43.2px;
+   letter-spacing: 0%;
+
+}
+
+.card_four_author {
+   width: 157px;
+   height: 29px;
+   opacity: 1;
+   margin-top: 198px;
+   margin-left: 50px;
+   color: #FFFFFFB2;
+   position: absolute;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 24px;
+   line-height: 28.8px;
+   letter-spacing: 0%;
+
+}
+
+
+.card_five {
+   width: 423px;
+   height: 364px;
+   opacity: 1;
+   margin-top: 16px;
+   margin-left: px;
+   border-radius: 32px;
+   display: flex;
+   position: relative;
+   background: #000000;
+}
+
+
+.card_five_description {
+   width: 313px;
+   height: 87px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 92px;
+   margin-left: 50px;
+   font-family: DM Sans;
+   position: absolute;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 35px;
+   leading-trim: NONE;
+   line-height: 43.2px;
+   letter-spacing: 0%;
+
+
+}
+
+.card_five_author {
+   width: 142px;
+   height: 29px;
+   opacity: 1;
+   margin-top: 198px;
+   margin-left: 50px;
+   color: #FFFFFFB2;
+   position: absolute;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 23px;
+   line-height: 28.8px;
+   letter-spacing: 0%;
+   position: absolute;
+
+}
+
+
+.card_six {
+   width: 423px;
+   height: 364px;
+   opacity: 1;
+   margin-top: 16px;
+   margin-left: px;
+   border-radius: 32px;
+   display: flex;
+   position: relative;
+   background: #000000;
+ 
+}
+
+
+.card_six_description {
+   width: 317px;
+   height: 173px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 92px;
+   margin-left: 50px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 36px;
+   leading-trim: NONE;
+   line-height: 43.2px;
+   letter-spacing: 0%;
+   position: absolute;
+
+
+
+}
+
+.card_six_author {
+   width: 135px;
+   height: 29px;
+   opacity: 1;
+   margin-top: 284px;
+   margin-left: 50px;
+   color: #FFFFFFB2;
+   position: absolute;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 23px;
+   line-height: 28.8px;
+   letter-spacing: 0%;
+   position: absolute;
 
 }
