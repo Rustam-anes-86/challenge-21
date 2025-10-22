@@ -1589,5 +1589,173 @@ footer {
    angle: 0 deg;
    opacity: 1;
    margin-left: 16px;
+}
+
+.home_footer {
+   width: 49px;
+   height: 27px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: -0.88px;
+   margin-left: -0.14px;
+
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 17px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+}
+
+.about_footer {
+   width: 51px;
+   height: 27px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 10px;
+   margin-left: -0.14px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 17px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+
+}
+
+.episodes_footer {
+   width: 75px;
+   height: 27px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 10px;
+   margin-left: -0.14px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 17px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+}
+
+.contact_footer {
+   width: 68px;
+   height: 27px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 10px;
+   margin-left: -0.14px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 18px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+
+}
+
+.style_footer {
+   width: 95px;
+   height: 27px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: -0.88px;
+   margin-left: 0.02px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 17px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+
+}
+
+.instructions {
+   width: 98px;
+   height: 27px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 10px;
+   margin-left: 0.02px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 17px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+
+}
+
+.changelog {
+   width: 88px;
+   height: 27px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 10px;
+   left: 0.02px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 18px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+
+}
+
+.credit {
+   width: 52px;
+   height: 27px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 10px;
+   margin-left: 0.02px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 18px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+
+}
+
+.powered {
+   width: 174px;
+   height: 27px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 10px;
+   margin-left: 0.02px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 18px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
+
+}
+
+.licenses {
+   width: 71px;
+   height: 27px;
+   angle: 0 deg;
+   opacity: 1;
+   margin-top: 10px;
+   margin-left: 0.02px;
+   font-family: DM Sans;
+   font-weight: 400;
+   font-style: Regular;
+   font-size: 17px;
+   leading-trim: NONE;
+   line-height: 27px;
+   letter-spacing: 0%;
 
 }
