@@ -305,11 +305,10 @@ nav a:active {
 .header_3 {
     width: 1440px;
     height: 80px;
-    justify-content: space-between;
+    justify-content: flex-start;
     angle: 0 deg;
     opacity: 1;
     align-items: center;
-
     border-radius: 10px;
     padding-right: 36px;
     padding-left: 36px;
@@ -326,21 +325,21 @@ nav a:active {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
+
 
 }
 
 .logo_3 {
     width: 30px;
     height: 30px;
- 
+
 }
 
 .logo_3_text {
     width: 77.7px;
     height: 29px;
     opacity: 1;
-  
+
     display: flex;
     flex-direction: column;
 }
@@ -362,7 +361,7 @@ nav a:active {
     vertical-align: middle;
     text-transform: uppercase;
     margin-bottom: 7.38px;
-   
+
     flex-direction: row;
 
 
@@ -386,6 +385,37 @@ nav a:active {
     display: flex;
 
     flex-direction: row;
+}
 
 
+.headers_block_3_center {
+    width: 405px;
+    height: 19px;
+    angle: 0 deg;
+    opacity: 1;
+    margin-left: 408.15px;
+ 
+
+}
+
+.nav_3 {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.items_3 a {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.headers_block_3_right {
+    margin-left: 417.15px;
+    display: flex;
+    align-items: center;
 }
