@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body {
@@ -10,7 +9,7 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 30px;
-
+  height: 5000px;
 }
 
 .card2 {
@@ -23,8 +22,6 @@ body {
   flex-direction: column;
   background: #e1ede6;
   border: 1px solid black;
-
- 
 }
 
 .card2__image {
@@ -116,7 +113,7 @@ body {
   opacity: 1;
   border-radius: 10px;
   background-color: white;
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .card3__title {
@@ -168,7 +165,6 @@ body {
 }
 
 .card3_btn {
-
   angle: 0 deg;
   opacity: 1;
   font-family: Montserrat;
@@ -184,9 +180,93 @@ body {
   margin-top: 14px;
   border: none;
 
-  background: #FED84C;
+  background: #fed84c;
   border-radius: 8px;
-
 }
 
+.card4 {
+  width: 330px;
+  height: 400px;
+  angle: 0 deg;
+  opacity: 1;
+  border: 1px solid red;
+  background-color: #0c0b15;
+  border-radius: 10px;
+}
 
+.card4__image-circles {
+  display: flex;
+  justify-content: space-between;
+}
+.card4__image {
+  color: #06152b;
+  width: 60px;
+  height: 60px;
+  angle: 0 deg;
+  opacity: 1;
+  margin-left: 27.21px;
+  margin-top: 21.7px;
+  display: inline-block;
+}
+
+.card4__circles {
+  width: 28px;
+  height: 6px;
+  angle: 0 deg;
+  opacity: 1;
+  color: #99b2c6;
+  background-color: #0c0b15;
+  display: inline-block;
+  margin-top: 23px;
+  margin-right: 23px;
+}
+
+.card4__about {
+  width: 96px;
+  height: 27px;
+  angle: 0 deg;
+  opacity: 1;
+  color: #fff;
+  font-family: DM Sans;
+  font-weight: 600;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 27px;
+  letter-spacing: 0px;
+  margin-left: 26.5px;
+  margin-top: 18.3px;
+}
+
+.card4_designer {
+  width: 262px;
+  height: 22px;
+  angle: 0 deg;
+  opacity: 1;
+
+  font-family: DM Sans;
+  font-weight: 600;
+  font-size: 15px;
+  leading-trim: NONE;
+  line-height: 22px;
+  letter-spacing: 0px;
+  color: #809fb8;
+  margin-left: 26.5px;
+  margin-top: 24.37px;
+}
+
+.card4__content {
+  width: 260px;
+  height: 147px;
+  angle: 0 deg;
+  opacity: 1;
+
+  font-family: DM Sans;
+  font-weight: 600;
+  font-size: 14px;
+  leading-trim: NONE;
+  line-height: 19px;
+  letter-spacing: 0px;
+  color: #809fb8;
+  margin-left: 27.72px;
+  margin-top: 26.63px;
+}
