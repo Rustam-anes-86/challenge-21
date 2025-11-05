@@ -12,6 +12,114 @@ body {
   height: 5000px;
 }
 
+.card1 {
+  width: 1300px;
+  height: 545px;
+  angle: 0 deg;
+  opacity: 1;
+  background-color: #000000;
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1__image {
+  width: 389px;
+  height: 465px;
+  angle: 0 deg;
+  opacity: 1;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.card1_main-block {
+  width: 778px;
+  height: 465px;
+  angle: 0 deg;
+  opacity: 1;
+  margin-top: 40.44px;
+  margin-right: 40px;
+  
+}
+
+.card1__gear {
+  width: 73px;
+  height: 27px;
+  angle: 0 deg;
+  opacity: 1;
+  margin-top: 7.56px;
+  background: #191919;
+  border-radius: 6px;
+  padding: 0 16px 0 16px;
+  color: #fff;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+
+.card1__episode {
+  width: 82px;
+  height: 27px;
+  angle: 0 deg;
+  margin-top: 48.44px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 17px;
+  leading-trim: NONE;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #118da8;
+}
+
+.card1__title {
+  width: 701px;
+  height: 141px;
+  angle: 0 deg;
+  opacity: 1;
+  margin-top: 17.56px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 64px;
+  leading-trim: NONE;
+  line-height: 70.4px;
+  letter-spacing: 2.56px;
+  color: #ffffff;
+}
+
+.card1__description {
+  width: 757px;
+  height: 99px;
+  angle: 0 deg;
+  opacity: 1;
+  margin-top: 28px;
+  font-family: DM Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 33px;
+  letter-spacing: 0%;
+  color: #ffffffb2;
+}
+
+.card1__btn {
+  padding: 12px 15px 12px 20px;
+
+  angle: 0 deg;
+  opacity: 1;
+  border-radius: 6px;
+  background: #118da8;
+  color: #ffffff;
+  margin-left: 0;
+  margin-top: 26px;
+}
+
 .card2 {
   width: 290px;
   height: 514px;
