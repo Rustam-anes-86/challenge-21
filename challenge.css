@@ -15,19 +15,19 @@ body {
   opacity: 1;
   display: grid;
   grid-template-columns: 380px 380px 380px;
-  grid-template-rows: 580px 582px 582px;
-  border: 1px solid red;
+  grid-template-rows: 582px 582px 582px;
   gap: 20px;
 }
 
 .item {
-  border: 1px solid blue;
+ 
+  box-shadow: 2px 8px 16px 0px #494a4d0f;
+
 }
 
 .item__image1 {
   width: 380px;
   height: 245px;
-
   opacity: 1;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -72,7 +72,7 @@ body {
   opacity: 1;
   font-family: Montserrat;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 23px;
   leading-trim: NONE;
   line-height: 150%;
   letter-spacing: 0%;
@@ -86,6 +86,7 @@ body {
   height: 68px;
   angle: 0 deg;
   opacity: 1;
+  border:none;
   padding-top: 20px;
   padding-right: 40px;
   padding-bottom: 20px;
