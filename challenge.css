@@ -5,13 +5,16 @@
 }
 body {
   display: flex;
-  justify-content: center;
+  align-self: center;
+  flex-direction: column;
 }
 
 .container {
   width: 1180px;
   height: 1786px;
   angle: 0 deg;
+  display: flex;
+  align-self: center;
   opacity: 1;
   display: grid;
   grid-template-columns: 380px 380px 380px;
@@ -20,9 +23,7 @@ body {
 }
 
 .item {
- 
   box-shadow: 2px 8px 16px 0px #494a4d0f;
-
 }
 
 .item__image1 {
@@ -86,7 +87,7 @@ body {
   height: 68px;
   angle: 0 deg;
   opacity: 1;
-  border:none;
+  border: none;
   padding-top: 20px;
   padding-right: 40px;
   padding-bottom: 20px;
@@ -103,4 +104,69 @@ body {
   letter-spacing: 0%;
   text-align: center;
   vertical-align: middle;
+}
+/*Второй блок карточек*/
+.container2 {
+  margin-top: 50px;
+  width: 1920px;
+  height: 1545px;
+  angle: 0 deg;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.container2__box {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 938px;
+  height: 109px;
+  angle: 0 deg;
+  opacity: 1;
+
+  margin-bottom: 80px;
+}
+
+.description2 {
+  width: 938px;
+  height: 60px;
+  angle: 0 deg;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 48px;
+  leading-trim: NONE;
+  line-height: 60px;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #2e363e;
+}
+
+.recomendation {
+  width: 715px;
+  height: 35px;
+  angle: 0 deg;
+  opacity: 1;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 143%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 14px;
+  color: #2E363E;
+;
+}
+
+.container2__image-box {
+  width: 1920px;
+  height: 1350px;
+  angle: 0 deg;
+  opacity: 1;
+  display: grid;
+  grid-template-columns: 634px 634px 634px;
+  grid-template-rows: 444px 444px 444px;
+  gap: 9px;
 }
