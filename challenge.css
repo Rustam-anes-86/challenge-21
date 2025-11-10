@@ -3,170 +3,93 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+
+header {
+  width: 1440px;
+  height: 100px;
+  opacity: 1;
+  background-color: #e1ede6;
+  margin: 0 auto;
   display: flex;
-  align-self: center;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  margin-left: 165px;
 }
 
-.container {
-  width: 1180px;
-  height: 1786px;
+.header__nav {
+  width: 470px;
+  height: 24px;
   angle: 0 deg;
+  opacity: 1;
   display: flex;
-  align-self: center;
-  opacity: 1;
-  display: grid;
-  grid-template-columns: 380px 380px 380px;
-  grid-template-rows: 582px 582px 582px;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-right: 165px;
 }
 
-.item {
-  box-shadow: 2px 8px 16px 0px #494a4d0f;
-}
-
-.item__image1 {
-  width: 380px;
-  height: 245px;
-  opacity: 1;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.item__title {
-  width: 247px;
-  height: 35px;
-  angle: 0 deg;
-  opacity: 1;
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 24px;
-  leading-trim: NONE;
-  line-height: 143%;
-  letter-spacing: 0%;
-  color: #2e363e;
-  margin-top: 50px;
-  margin-left: 44px;
-}
-
-.item__description {
-  width: 240px;
-  height: 48px;
-  angle: 0 deg;
-  opacity: 1;
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 16px;
-  leading-trim: NONE;
-  line-height: 150%;
-  letter-spacing: 0%;
-  color: #2e363e;
-  margin-top: 12px;
-  margin-left: 44px;
-}
-
-.item__price {
-  width: 108px;
-  height: 36px;
-  angle: 0 deg;
-  opacity: 1;
-  font-family: Montserrat;
+.header__link {
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: Raleway;
   font-weight: 500;
-  font-size: 23px;
+  font-size: 20px;
   leading-trim: NONE;
-  line-height: 150%;
+  line-height: 100%;
   letter-spacing: 0%;
-  color: #434b53;
-  margin-top: 24px;
-  margin-left: 44px;
+  color: #2c2d35;
 }
 
-.item__btn {
-  width: 163px;
-  height: 68px;
-  angle: 0 deg;
-  opacity: 1;
+.header__basket {
   border: none;
-  padding-top: 20px;
-  padding-right: 40px;
-  padding-bottom: 20px;
-  padding-left: 40px;
-  border-radius: 8px;
-  background: #fed84c;
-  margin-top: 14px;
-  margin-left: 44px;
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 18px;
-  leading-trim: NONE;
-  line-height: 152%;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: middle;
+  background-color: #e1ede6;
 }
-/*Второй блок карточек*/
-.container2 {
-  margin-top: 50px;
-  width: 1920px;
-  height: 1545px;
+
+.hero {
+  width: 1440px;
+  height: 620px;
   angle: 0 deg;
   opacity: 1;
   display: flex;
-  flex-direction: column;
-  align-self: center;
+  justify-content: space-between;
+  border: 1px solid red;
+  margin: 0 auto;
 }
 
-.container2__box {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  width: 938px;
-  height: 109px;
+.hero__img {
+  width: 540px;
+  height: 621px;
+  angle: -180 deg;
+  opacity: 1;
+  margin-left: 165px;
+}
+
+.hero__card {
+  margin-top: 145px;
+  margin-right: 165px;
+}
+.hero__title {
+  width: 540px;
+  height: 132px;
   angle: 0 deg;
   opacity: 1;
-
-  margin-bottom: 80px;
-}
-
-.description2 {
-  width: 938px;
-  height: 60px;
-  angle: 0 deg;
-  font-family: Montserrat;
+  font-family: Raleway;
   font-weight: 500;
-  font-size: 48px;
+  font-size: 60px;
   leading-trim: NONE;
-  line-height: 60px;
-  letter-spacing: -1px;
-  text-align: center;
-  color: #2e363e;
-}
-
-.recomendation {
-  width: 715px;
-  height: 35px;
-  angle: 0 deg;
-  opacity: 1;
-  font-family: Montserrat;
-  font-weight: 400;
-  font-size: 24px;
-  leading-trim: NONE;
-  line-height: 143%;
+  line-height: 110.00000000000001%;
   letter-spacing: 0%;
-  text-align: center;
-  margin-top: 14px;
-  color: #2E363E;
-;
+  color: #2c2d35;
 }
 
-.container2__image-box {
-  width: 1920px;
-  height: 1350px;
-  angle: 0 deg;
-  opacity: 1;
-  display: grid;
-  grid-template-columns: 634px 634px 634px;
-  grid-template-rows: 444px 444px 444px;
-  gap: 9px;
+.hero__title span {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 60px;
+  leading-trim: NONE;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  color: #598d66;
 }
