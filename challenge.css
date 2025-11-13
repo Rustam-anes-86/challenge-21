@@ -135,12 +135,13 @@ header {
   margin-top: 81px;
   background-color: white;
 }
-
+/*Галерея с карточками*/
 .gallery {
   background-color: white;
   width: 1110px;
   height: 1564px;
   margin: 0 auto;
+  border: 1px solid blue;
 }
 .gallery__nav {
   width: 1110px;
@@ -150,7 +151,7 @@ header {
   angle: 0 deg;
   opacity: 1;
   margin: 0 auto;
- 
+
   margin-top: 70px;
   margin-bottom: 30px;
 }
@@ -214,7 +215,6 @@ header {
   grid-template-columns: 350px 350px 350px;
   grid-template-rows: 730px 730px;
   gap: 30px;
-  border: 1px solid green;
 }
 
 .card {
@@ -223,14 +223,10 @@ header {
   angle: 0 deg;
   opacity: 1;
   background: #e1ede6;
-
-
 }
 
 .card__image {
-margin: 20px 20px 0 20px;
-
-
+  margin: 20px 20px 0 20px;
 }
 .card__author {
   width: 133px;
@@ -305,9 +301,18 @@ margin: 20px 20px 0 20px;
   letter-spacing: 0%;
   color: #598d66;
   padding: 21px 106.5px 21px 106.5px;
-  background-color: #E1EDE6;
+  background-color: #e1ede6;
   margin-top: 20px;
   margin-left: 20px;
-  border: 1px solid #598d66; ;
+  border: 1px solid #598d66;
+}
 
+.fresco {
+  width: 1440px;
+  height: 574px;
+  angle: 0 deg;
+  opacity: 1;
+  
+  border: 1px solid black
+  
 }
