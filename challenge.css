@@ -379,3 +379,89 @@ header {
   margin-top: 81px;
   margin-left: 165px;
 }
+/*Блок команда*/
+.team {
+  background-color: #ffffff;
+  max-width: 1440px;
+}
+
+.team__container {
+  width: 1110px;
+  height: 440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.team__image-box {
+  position: relative;
+  width: 445px;
+  height: 440px;
+  opacity: 1;
+  margin-left: 0px;
+
+}
+
+.team__frame {
+  width: 444px;
+  height: 361px;
+  opacity: 1;
+  display: block;
+  margin-top: 79px;
+  margin-left: 0px;
+
+}
+
+.team__hand {
+  width: 269px;
+  height: 397px;
+  opacity: 1;
+  left: 48px;
+  bottom: 43px;
+  position: absolute;
+}
+
+.team__content {
+  width: 635px;
+  height: 272px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 124px;
+}
+
+.team__title {
+  width: 281px;
+  height: 44px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 110.00000000000001%;
+  letter-spacing: 0%;
+  color: #2c2d35;
+}
+
+.team__description {
+  width: 635px;
+  height: 108px;
+  opacity: 1;
+  margin-top: 20px;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2c2d35;
+}
+
+.team__avatars {
+  width: 300px;
+  display: flex;
+  height: 80px;
+  opacity: 1;
+  margin-top: 20px;
+  gap: 30px;
+}
