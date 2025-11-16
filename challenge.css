@@ -6,8 +6,8 @@
 
 body {
   background: #bbbcc5;
-  height: 10000px;
   border: 1px solid blue;
+  height: 10000px;
 }
 
 .main {
@@ -64,7 +64,6 @@ header {
   opacity: 1;
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
   margin: 0 auto;
   background-color: white;
 }
@@ -90,7 +89,7 @@ header {
   font-weight: 500;
   font-size: 60px;
   leading-trim: NONE;
-  line-height: 110.00000000000001%;
+  line-height: 110%;
   letter-spacing: 0%;
   color: #2c2d35;
 }
@@ -100,7 +99,7 @@ header {
   font-weight: 500;
   font-size: 60px;
   leading-trim: NONE;
-  line-height: 110.00000000000001%;
+  line-height: 110%;
   letter-spacing: 0%;
   color: #598d66;
 }
@@ -108,7 +107,6 @@ header {
 .hero__text {
   width: 540px;
   height: 54px;
-  angle: 0 deg;
   opacity: 1;
   margin-top: 20px;
   font-family: Raleway;
@@ -129,7 +127,6 @@ header {
   letter-spacing: 0%;
   color: #598d66;
   padding: 21px 60px 21px 60px;
-  border: 1px solid #598d66;
   margin-top: 81px;
   background-color: white;
 }
@@ -138,7 +135,6 @@ header {
   background-color: white;
   width: 1110px;
   margin: 0 auto;
-  border: 1px solid blue;
 }
 .gallery__nav {
   width: 1110px;
@@ -161,8 +157,7 @@ header {
   font-family: Raleway;
   font-weight: 500;
   font-size: 40px;
-  leading-trim: NONE;
-  line-height: 110.00000000000001%;
+  line-height: 110%;
   letter-spacing: 0%;
 }
 
@@ -180,7 +175,7 @@ header {
   font-family: Raleway;
   font-weight: 500;
   font-size: 20px;
-  leading-trim: NONE;
+
   line-height: 100%;
   letter-spacing: 0%;
   padding: 10px 20px 10px 20px;
@@ -193,7 +188,6 @@ header {
   font-family: Raleway;
   font-weight: 500;
   font-size: 20px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   padding: 10px 20px 10px 20px;
@@ -206,7 +200,6 @@ header {
   background: white;
   margin: 0 auto;
   width: 1110px;
-  border: 1px solid red;
   display: grid;
   grid-template-columns: 350px 350px 350px;
   grid-template-rows: 730px 730px;
@@ -224,6 +217,7 @@ header {
 .card__image {
   margin: 20px 20px 0 20px;
 }
+
 .card__author {
   width: 133px;
   height: 21px;
@@ -232,7 +226,6 @@ header {
   font-family: Raleway;
   font-weight: 500;
   font-size: 17px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   color: #86928b;
@@ -243,14 +236,12 @@ header {
 .card__title {
   width: 310px;
   height: 35px;
-  angle: 0 deg;
   opacity: 1;
   margin-top: 10px;
   margin-left: 20px;
   font-family: Raleway;
   font-weight: 500;
   font-size: 30px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   color: #2c2d35;
@@ -259,14 +250,12 @@ header {
 .card__details {
   width: 310px;
   height: 21px;
-  angle: 0 deg;
   opacity: 1;
   margin-top: 8px;
   margin-left: 20px;
   font-family: Raleway;
   font-weight: 500;
   font-size: 18px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   color: #2c2d35;
@@ -275,14 +264,12 @@ header {
 .card__price {
   width: 122px;
   height: 28px;
-  angle: 0 deg;
   opacity: 1;
   margin-top: 30px;
   margin-left: 20px;
   font-family: Raleway;
   font-weight: 500;
   font-size: 23px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   color: #598d66;
@@ -292,21 +279,19 @@ header {
   font-family: Raleway;
   font-weight: 500;
   font-size: 20px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   color: #598d66;
   padding: 21px 106.5px 21px 106.5px;
   background-color: #e1ede6;
+  border: 1px solid #598d66;
   margin-top: 20px;
   margin-left: 20px;
-  border: 1px solid #598d66;
 }
 
 .fresco {
   width: 1440px;
   height: 574px;
-  angle: 0 deg;
   opacity: 1;
   margin-top: 70px;
   border: 1px solid black;
@@ -318,7 +303,6 @@ header {
   justify-content: space-between;
   width: 521px;
   height: 80px;
-  angle: 0 deg;
   opacity: 1;
   gap: 20px;
   margin-left: 165px;
@@ -328,7 +312,6 @@ header {
 .fresco__logo {
   width: 80px;
   height: 80px;
-  angle: 0 deg;
   opacity: 1;
   border-width: 3px;
   border: 3px solid #eedb6d;
@@ -341,7 +324,6 @@ header {
   font-family: Raleway;
   font-weight: 500;
   font-size: 40px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   color: #f4f6f5;
@@ -350,7 +332,6 @@ header {
 .fresco__description {
   width: 540px;
   height: 209px;
-  angle: 0 deg;
   opacity: 1;
   font-family: Raleway;
   font-weight: 500;
@@ -367,7 +348,6 @@ header {
   padding: 21px 60px 21px 60px;
   background: #eedb6d;
   border: none;
-  angle: 0 deg;
   opacity: 1;
   font-family: Raleway;
   font-weight: 500;
@@ -400,7 +380,6 @@ header {
   height: 440px;
   opacity: 1;
   margin-left: 0px;
-
 }
 
 .team__frame {
@@ -410,7 +389,6 @@ header {
   display: block;
   margin-top: 79px;
   margin-left: 0px;
-
 }
 
 .team__hand {
@@ -439,7 +417,7 @@ header {
   font-weight: 500;
   font-size: 40px;
   leading-trim: NONE;
-  line-height: 110.00000000000001%;
+  line-height: 110%;
   letter-spacing: 0%;
   color: #2c2d35;
 }
@@ -464,4 +442,137 @@ header {
   opacity: 1;
   margin-top: 20px;
   gap: 30px;
+}
+
+.footer {
+  width: 1440px;
+  height: 168px;
+  opacity: 1;
+  margin-top: 70px;
+  background: #e1ede6;
+  display: flex;
+  justify-content: flex-start;
+  padding: 23px 165px 23px 165px;
+
+}
+
+.footer__left {
+  width: 170px;
+  height: 125px;
+
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 165px; */
+  /* margin-top: 23px; */
+  margin-right: 115px;
+}
+
+.footer__logo {
+  width: 143px;
+  height: 35px;
+  opacity: 1;
+}
+
+.footer__phone {
+  width: 170px;
+  height: 23px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #2c2d35;
+  margin-top: 35px;
+}
+
+.footer__adress {
+  width: 104px;
+  height: 21px;
+  angle: 0 deg;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #86928b;
+  margin-top: 8px;
+}
+
+.footer__menu {
+  width: 445px;
+  height: 122px;
+  opacity: 1;
+  margin-right: 248px;
+  display: flex;
+  gap: 60px;
+
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__title {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.footer__link {
+  display: block;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-decoration: none;
+  color: #86928b;
+  margin-top: 6px;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  width: 132px;
+  height: 68px;
+  opacity: 1;
+  gap: 10px;}
+
+
+.footer__socials {
+  display: flex;
+  width: 132px;
+  height: 24px;
+  opacity: 1;
+  gap: 30px;
+}
+
+.footer__ink {
+  width: 132px;
+  height: 14px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #86928b;
+}
+
+.footer__all-rights {
+  width: 132px;
+  height: 14px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #86928b;
 }
