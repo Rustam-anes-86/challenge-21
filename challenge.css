@@ -295,7 +295,7 @@ header {
   opacity: 1;
   margin-top: 70px;
   border: 1px solid black;
-  background-image: url("./images_21/fresco_n.svg");
+  background-image: url("./images_21/pic_background.svg");
 }
 
 .fresco__logo-title {
@@ -576,3 +576,131 @@ header {
   letter-spacing: 0%;
   color: #86928b;
 }
+
+/*Планшет*/
+
+@media (max-width:1024px) {
+  
+body {
+  background: #bbbcc5;
+  border: 1px solid blue;
+  height: 10000px;}
+
+
+.main {
+  width: 768px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  width: 768px;
+  height: 100px;
+  opacity: 1;
+  background-color: #e1ede6;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  margin-left: 39px;
+}
+
+.header__nav {
+  width: 445px;
+  height: 24px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-right: 39px;
+}
+
+.header__link {
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #2c2d35;
+}
+
+.header__basket {
+  border: none;
+  background-color: #e1ede6;
+}
+
+.hero {
+  width: 768px;
+  opacity: 1;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.hero__img {
+  width: 330px;
+  height: 380px;
+  opacity: 1;
+  margin-left: 39px;
+}
+
+.hero__card {
+  margin-top: 35px;
+  margin-right: 39px;
+}
+.hero__title {
+  width: 330px;
+  height: 80px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #2c2d35;
+}
+
+.hero__title span {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 40px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #598d66;
+}
+
+.hero__text {
+  width: 330px;
+  height: 108px;
+  opacity: 1;
+  margin-top: 20px;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #86928b;
+}
+
+.hero__btn {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #598d66;
+  padding: 18.5px 51.5px 18.5px 51.5px;
+  margin-top: 40px;
+  background-color: white;
+}}
