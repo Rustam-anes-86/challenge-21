@@ -310,11 +310,7 @@ header {
 }
 
 .fresco__logo {
-  width: 80px;
-  height: 80px;
-  opacity: 1;
-  border-width: 3px;
-  border: 3px solid #eedb6d;
+ 
 }
 
 .fresco__title {
@@ -877,11 +873,7 @@ header {
 }
 
 .fresco__logo {
-  width: 60px;
-  height: 60px;
-  opacity: 1;
-  border-width: 3px;
-  border: 3px solid #eedb6d;
+
 }
 
 .fresco__logo-img {
@@ -931,9 +923,221 @@ header {
   margin-top: 30px;
   margin-left: 39px;
 }
+/*блок команда*/
+.team {
+  background-color: #ffffff;
+  max-width: 766px;
+}
+
+.team__container {
+  width: 690px;
+  height: 825px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+
+.team__image-box {
+  position: relative;
+  width: 510px;
+  height: 504px;
+  opacity: 1;
+  margin-left: 0px;
+}
+
+.team__frame {
+  width: 509px;
+  height: 413px;
+  opacity: 1;
+  display: block;
+  margin-top: 90.49px;
+  margin-left: 0px;
+}
+
+.team__hand {
+  width: 308.29px;
+  height: 454.75px;               
+  opacity: 1;
+  left:55px;
+  bottom: 49.25px;
+  position: absolute;
+}
+
+.team__content {
+  width: 690px;
+  height: 281px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.team__title {
+  width: 211px;
+  height: 33px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 30px;
+  leading-trim: NONE;
+  line-height: 110%;
+  letter-spacing: 0%;
+  color: #2c2d35;
+}
+
+.team__description {
+  width: 690px;
+  height: 108px;
+  opacity: 1;
+  margin-top: 30px;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2c2d35;
+}
+
+.team__avatars {
+  width: 300px;
+  display: flex;
+  height: 80px;
+  opacity: 1;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+/*Футер планшет*/
+.footer {
+  width: 768px;
+  height: 250px;
+  opacity: 1;
+  margin-top: 70px;
+  background: #e1ede6;
+  /* display: flex;
+  justify-content: flex-start;
+  padding: 23px 165px 23px 165px;
+
+}
+
+.footer__left {
+  width: 170px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 115px;
+}
+
+.footer__logo {
+  width: 143px;
+  height: 35px;
+  opacity: 1;
+}
+
+.footer__phone {
+  width: 170px;
+  height: 23px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #2c2d35;
+  margin-top: 35px;
+}
+
+.footer__adress {
+  width: 104px;
+  height: 21px;
+  angle: 0 deg;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #86928b;
+  margin-top: 8px;
+}
+
+.footer__menu {
+  width: 445px;
+  height: 122px;
+  opacity: 1;
+  margin-right: 248px;
+  display: flex;
+  gap: 60px;
+
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__title {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.footer__link {
+  display: block;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-decoration: none;
+  color: #86928b;
+  margin-top: 6px;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  width: 132px;
+  height: 68px;
+  opacity: 1;
+  gap: 10px;}
 
 
+.footer__socials {
+  display: flex;
+  width: 132px;
+  height: 24px;
+  opacity: 1;
+  gap: 30px;
+}
 
+.footer__ink {
+  width: 132px;
+  height: 14px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #86928b;
+}
 
+.footer__all-rights {
+  width: 132px;
+  height: 14px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #86928b;
+} */
 
 }
