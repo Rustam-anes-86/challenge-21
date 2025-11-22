@@ -1011,34 +1011,54 @@ header {
 
 /*Футер планшет*/
 .footer {
-  width: 768px;
-  height: 250px;
+  max-width: 768px;
+  /* height: 250px; */
   opacity: 1;
-  margin-top: 70px;
+  margin: 70px auto 0;
   background: #e1ede6;
-  /* display: flex;
-  justify-content: flex-start;
-  padding: 23px 165px 23px 165px;
+  padding: 23px 39px 23px 39px;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas:
+  "left left"
+  "menu right";
+  column-gap: 75px;
+  row-gap: 30px;
+  border: 1px solid black;
 
 }
 
 .footer__left {
-  width: 170px;
-  height: 125px;
+
+  /* width: 690px;
+  height: 52px; */
+  grid-area: left;
+  /* margin: 23px 39px 30px 39px; */
+  border: 1px solid red;
   display: flex;
-  flex-direction: column;
-  margin-right: 115px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer__logo {
-  width: 143px;
-  height: 35px;
+  /* width: 143px;
+  height: 35px; */
   opacity: 1;
+  /* margin-bottom: 17px; */
 }
 
+.footer__phone-adress{
+  /* width: 170px;
+  height: 52px; */
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
 .footer__phone {
-  width: 170px;
-  height: 23px;
+  /* width: 170px;
+  height: 23px; */
   opacity: 1;
   font-family: Raleway;
   font-weight: 500;
@@ -1046,13 +1066,12 @@ header {
   line-height: 100%;
   letter-spacing: 0%;
   color: #2c2d35;
-  margin-top: 35px;
+ 
 }
 
 .footer__adress {
-  width: 104px;
-  height: 21px;
-  angle: 0 deg;
+  /* width: 104px;
+  height: 21px; */
   opacity: 1;
   font-family: Raleway;
   font-weight: 500;
@@ -1061,14 +1080,15 @@ header {
   line-height: 100%;
   letter-spacing: 0%;
   color: #86928b;
-  margin-top: 8px;
+  /* margin-top: 8px; */
 }
 
 .footer__menu {
-  width: 445px;
-  height: 122px;
+  grid-area: menu;
+  width: auto;
+  height: auto;
   opacity: 1;
-  margin-right: 248px;
+  /* margin-right: 75px; */
   display: flex;
   gap: 60px;
 
@@ -1100,12 +1120,15 @@ header {
 }
 
 .footer__right {
+  grid-area: right;
+  width: auto;
+  height: auto;
   display: flex;
   flex-direction: column;
   width: 132px;
   height: 68px;
   opacity: 1;
-  gap: 10px;}
+  }
 
 
 .footer__socials {
@@ -1113,7 +1136,7 @@ header {
   width: 132px;
   height: 24px;
   opacity: 1;
-  gap: 30px;
+  margin-bottom: 10px;
 }
 
 .footer__ink {
@@ -1126,6 +1149,7 @@ header {
   line-height: 120%;
   letter-spacing: 0%;
   color: #86928b;
+  margin-bottom: 6px;
 }
 
 .footer__all-rights {
@@ -1138,6 +1162,6 @@ header {
   line-height: 120%;
   letter-spacing: 0%;
   color: #86928b;
-} */
+}  
 
 }
