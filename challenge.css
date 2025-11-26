@@ -454,7 +454,6 @@ header {
   opacity: 1;
 }
 
-
 .footer__phone-adress {
   width: 170px;
   height: 52px;
@@ -567,7 +566,7 @@ header {
 
 /*Планшет*/
 
-@media(max-width: 1024px) {
+@media (max-width: 1024px) {
   * {
     margin: 0;
     padding: 0;
@@ -916,170 +915,229 @@ header {
   }
   /*блок команда*/
 
-.team {
-  background-color: #ffffff;
-  width: 766px;
+  .team {
+    background-color: #ffffff;
+    width: 766px;
+  }
+
+  .team__container {
+    width: 690px;
+    height: 825px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    margin-left: 39px;
+  }
+
+  .team__image-box {
+    width: 510px;
+    height: 504px;
+    opacity: 1;
+    display: flex;
+    position: relative;
+  }
+
+  .team__frame {
+    width: 509px;
+    height: 413px;
+    opacity: 1;
+    display: block;
+    margin-top: 90.49px;
+  }
+
+  .team__hand {
+    width: 308.29px;
+    height: 454.75px;
+    z-index: 20;
+    position: absolute;
+  }
+
+  .team__content {
+    width: 690px;
+    height: 281px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .team__title {
+    width: 211px;
+    height: 33px;
+    opacity: 1;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: 0%;
+    color: #2c2d35;
+  }
+
+  .team__description {
+    width: 690px;
+    height: 108px;
+    opacity: 1;
+    margin-top: 30px;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #2c2d35;
+  }
+
+  .team__avatars {
+    width: 300px;
+    display: flex;
+    height: 80px;
+    opacity: 1;
+    margin-top: 30px;
+    gap: 30px;
+  }
+
+  /*Футер планшет*/
+  .footer {
+    width: 768px;
+    min-height: 250px;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+
+  .footer__left {
+    width: 690px;
+    height: 52px;
+    grid-column: 1/3;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 39px;
+  }
+
+  .footer__logo {
+    width: 143px;
+    height: 35px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .footer__phone-adress {
+    width: 170px;
+    height: 52px;
+  }
+
+  .footer__phone {
+    width: 170px;
+    height: 23px;
+    opacity: 1;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 0px;
+  }
+
+  .footer__adress {
+    width: 105px;
+    height: 21px;
+    opacity: 1;
+    font-family: Raleway;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+  }
+  .footer__menu {
+    width: 445px;
+    height: 122px;
+    opacity: 1;
+    margin-left: 39px;
+    margin-top: 30px;
+  }
+
+  .footer__right {
+    width: 132px;
+    height: 68px;
+    opacity: 1;
+    margin-left: 75px;
+    margin-top: 30px;
+  }
 }
 
-.team__container {
-  width: 690px;
-  height: 825px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-top: 70px;
-  margin-left: 39px;
-  
-}
+@media (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-.team__image-box {
-  width: 510px;
-  height: 504px;
-  opacity: 1;
-  display: flex;
-  position: relative;
-}
+  body {
+    width: 1024px;
+    background: #bbbcc5;
+    border: 1px solid blue;
+    height: auto;
+  }
 
-.team__frame {
-  width: 509px;
-  height: 413px;
-  opacity: 1;
-  display: block;
-  margin-top: 90.49px;
-}
+  .main {
+    width: 768px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
 
-.team__hand {
-  width: 308.29px;
-  height: 454.75px;
-  z-index: 20;
-  position: absolute;
- 
+  header {
+    width: 320px;
+    height: 130px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
 
-}
+  .header__logo {
+    width: 320px;
+    height: 68px;
+    opacity: 1;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+  }
 
-.team__content {
-  width: 690px;
-  height: 281px;
-  opacity: 1;
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
+  .header__nav {
+    display: none;
+  }
 
-}
+  .hero__img {
+    display: none;
+  }
 
-.team__title {
-  width: 211px;
-  height: 33px;
-  opacity: 1;
-  font-family: Raleway;
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 110%;
-  letter-spacing: 0%;
-  color: #2c2d35;
-}
+  .header__burger {
 
-.team__description {
-  width: 690px;
-  height: 108px;
-  opacity: 1;
-  margin-top: 30px;
-  font-family: Raleway;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 150%;
-  letter-spacing: 0%;
-  color: #2c2d35;
-}
-
-.team__avatars {
-  width: 300px;
-  display: flex;
-  height: 80px;
-  opacity: 1;
-  margin-top: 30px;
-  gap: 30px;
-}
-
-/*Футер планшет*/
-.footer {
-  width: 768px;
-  min-height: 250px;
-  margin-top: 70px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
-}
-
-.footer__left {
-  width: 690px;
-  height: 52px;
-  grid-column: 1/3;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin-left: 39px;
-}
-
-.footer__logo {
-  width: 143px;
-  height: 35px;
-  margin right: 0px;
-  margin-top: 0px;
-}
-
-
-.footer__phone-adress {
-  width: 170px;
-  height: 52px;
-
-}
-
-
-.footer__phone {
-width: 170px;
-height: 23px;
-opacity: 1;
-font-family: Raleway;
-font-weight: 500;
-font-size: 20px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0%;
-margin-top: 0px;
-
-}
-
-
-.footer__adress {
-width: 105px;
-height: 21px;
-opacity: 1;
-font-family: Raleway;
-font-weight: 500;
-font-size: 18px;
-leading-trim: NONE;
-line-height: 100%;
-letter-spacing: 0%;
-margin-bottom: 0px;
-
-
-}
-.footer__menu {
-  width: 445px;
-  height: 122px;
-  opacity: 1;
-
-  margin-left: 39px;
-  margin-top: 30px;
-}
-
-.footer__right {
-  width: 132px;
-  height: 68px;
-  opacity: 1;
-  
-  margin-left: 75px;
-  margin-top: 30px;
-}
+    margin-left: 20px;
+    background: none;
+    cursor: pointer;
+    margin-left: 15px;
+    margin: 16px;
+  }
+  .header__basket {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    gap: 30px;
+  }
+  .hero__card {
+    width: 290px;
+    height: 233px;
+    margin-top: 160px;
+    margin: auto;
+  }
 }
