@@ -1082,27 +1082,39 @@ header {
   }
 
   body {
-    width: 1024px;
+    width: 768px;
     background: #bbbcc5;
     border: 1px solid blue;
     height: auto;
+    margin: 0 auto;
   }
 
   .main {
     width: 768px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
   }
 
   header {
     width: 320px;
     height: 130px;
     opacity: 1;
-   
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .header__logo {
+    width: 320px;
+    height: 68px;
+    opacity: 1;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
   }
 
   .header__burger {
@@ -1111,35 +1123,23 @@ header {
     background: none;
     width: 30px;
     height: 30px;
+    display: flex;
+    align-self: center;
+    justify-self: start;
     margin-left: 15px;
   }
-  .header__logo {
-    width: 320px;
-    height: 68px;
-    opacity: 1;
-    background: #ffffff;
-    grid-column: 1/3;
-    margin-left: 0;
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .header__nav {
+    max-width: 320px;
+    height: 62px;
+    margin-right: 0;
   }
-.header__nav {
-   position: relative;
-   width: 62px;
-   height: 62px;
-   margin-right: 0;
-   align-self: flex-end;
-}
   .header__basket {
     display: block;
     width: 24px;
     height: 24px;
     opacity: 1;
-    position: absolute;
-    margin-left: 105px;
-    margin-bottom: 19px;
+    margin-right: 15px;
   }
 
   .header__link {
@@ -1152,9 +1152,10 @@ header {
 
   .hero {
     width: 320px;
-    opacity: 1;
+    height: 293px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    opacity: 1;
     margin: 0 auto;
     background-color: #ffffff;
   }
@@ -1163,6 +1164,7 @@ header {
     width: 290px;
     height: 233px;
     opacity: 1;
+    margin: 0 auto;
     margin-top: 60px;
   }
   .hero__title {
@@ -1192,14 +1194,16 @@ header {
   }
 
   .hero__btn {
+
     font-family: Raleway;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 100%;
     letter-spacing: 0%;
     color: #598d66;
-    padding: 21px 60px 21px 60px;
-    margin-top: 81px;
+    padding: 14.5px 29px 14.5px 29px;
+    margin-top: 40px;
     background-color: white;
+    border: 1px solid #598d66;
   }
 }
