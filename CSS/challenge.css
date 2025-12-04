@@ -159,7 +159,6 @@ header {
 .gallery__buttons {
   width: 428px;
   height: 43px;
-  angle: 0 deg;
   opacity: 1;
   gap: 32px;
   display: flex;
@@ -321,7 +320,6 @@ header {
   font-family: Raleway;
   font-weight: 500;
   font-size: 18px;
-  leading-trim: NONE;
   line-height: 150%;
   letter-spacing: 0%;
   color: #ffffff;
@@ -458,6 +456,10 @@ header {
   height: 52px;
 }
 
+.footer__line {
+  display: none;
+}
+
 .footer__phone {
   width: 168px;
   height: 22px;
@@ -561,6 +563,10 @@ header {
   line-height: 120%;
   letter-spacing: 0%;
   color: #86928b;
+}
+
+.footer__all-rights {
+  margin-top: 6px;
 }
 
 /*Планшет*/
@@ -1068,7 +1074,16 @@ header {
     margin-left: 75px;
     margin-top: 30px;
   }
+
+  .footer__line {
+    display: none;
+  }
+
+  .footer__all-rights {
+    margin-top: 6px;
+  }
 }
+
 /*Мобильная версия*/
 
 @media (max-width: 768px) {
@@ -1364,6 +1379,8 @@ header {
     margin-left: 20px;
   }
 
+
+
   /*Блок мобильной версии фреска*/
 
   .fresco {
@@ -1542,9 +1559,10 @@ header {
   }
   .footer {
     max-width: 320px;
-    min-height: 395px;
+    height: 395px;
     margin: 70px auto 0;
     display: grid;
+    position: relative;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "logo logo"
@@ -1572,7 +1590,6 @@ header {
     margin-left: 15px;
   }
   .footer__phone {
-    
     opacity: 1;
     font-family: Raleway;
     font-weight: 500;
@@ -1583,7 +1600,6 @@ header {
   }
 
   .footer__adress {
-   
     opacity: 1;
     font-family: Raleway;
     font-weight: 500;
@@ -1591,14 +1607,12 @@ header {
     line-height: 100%;
     letter-spacing: 0%;
     margin-bottom: 0px;
-    margin-left: 15px;
     color: #86928b;
   }
   .footer__column1 {
     width: 104px;
     height: 109px;
     opacity: 1;
-  
     margin-left: 40px;
   }
   .footer__title {
@@ -1607,7 +1621,6 @@ header {
     font-family: Raleway;
     font-weight: 500;
     font-size: 16px;
-
     line-height: 100%;
     letter-spacing: 0%;
   }
@@ -1624,8 +1637,8 @@ header {
     width: 136px;
     height: 83px;
     opacity: 1;
-   
-    margin-left: 15px ;
+    margin-left: 15px;
+    margin-top: 20px;
   }
 
   .footer__column3 {
@@ -1634,22 +1647,34 @@ header {
     opacity: 1;
     gap: 6px;
     margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .footer__line {
+    display: block;
+    width: 290px;
+    height: 0px;
+    opacity: 1;
+    margin-top: 287px;
+    margin-left: 15px;
+    border: none;
+    position: absolute;
   }
   .footer__right {
     width: 176px;
     height: 48px;
-    margin-botto: 20px;
+    margin-bottom: 20px;
     opacity: 1;
     display: flex;
     flex-direction: column;
   }
   .footer__right-ink {
-    width: 176px;
+    width: 178px;
     height: 14px;
     opacity: 1;
     font-family: Raleway;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 120%;
     letter-spacing: 0%;
     color: #86928b;
@@ -1661,6 +1686,29 @@ header {
     width: 132px;
     height: 24px;
     opacity: 1;
-    gap: 30px;
+    row-gap: 30px;
+    margin-top: 10px;
+    margin: 0 auto;
+  }
+
+  .footer__ink {
+    width: 90px;
+    height: 14px;
+    opacity: 1;
+  }
+
+  .footer__all-rights {
+    margin-top: 0px;
+  }
+  .title2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+  }
+
+  .title3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
   }
 }
