@@ -6,7 +6,6 @@
 
 body {
   background: #bbbcc5;
-  border: 1px solid blue;
   height: auto;
 }
 
@@ -122,6 +121,7 @@ header {
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0%;
+  border:1px solid  #598D66;
   color: #598d66;
   padding: 21px 60px 21px 60px;
   margin-top: 81px;
@@ -279,6 +279,51 @@ header {
   border: 1px solid #598d66;
   margin-top: 20px;
   margin-left: 20px;
+}
+
+.card1 {
+  width: 310px;
+  height: 422px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images_21/card_image1.svg");
+}
+.card2 {
+  width: 310px;
+  height: 422px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images_21/card_image2.svg");
+}
+.card3 {
+  width: 310px;
+  height: 422px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images_21/card_image3.svg");
+}
+
+.card4 {
+  width: 310px;
+  height: 422px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images_21/card_image4.svg");
+}
+
+.card5 {
+  width: 310px;
+  height: 422px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images_21/card_image5.svg");
+}
+.card6 {
+  width: 310px;
+  height: 422px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../images_21/card_image6.svg");
 }
 
 .fresco {
@@ -1379,8 +1424,6 @@ header {
     margin-left: 20px;
   }
 
-
-
   /*Блок мобильной версии фреска*/
 
   .fresco {
@@ -1446,6 +1489,59 @@ header {
     margin-top: 30px;
     margin-left: 15px;
   }
+
+  .card1 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images_21/card_image_mob1.svg");
+  }
+
+  .card2 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images_21/card_image_mob2.svg");
+  }
+
+  .card3 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images_21/card_image_mob3.svg");
+  }
+
+  .card4 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images_21/card_image_mob4.svg");
+  }
+  .card5 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images_21/card_image_mob5.svg");
+  }
+  .card6 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../images_21/card_image_mob6.svg");
+  }
+
   /*Блок команда мобильной версии*/
 
   .team {
